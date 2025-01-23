@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #fff;
+
+}
+
+.nav nav ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav nav ul li {
+    list-style: none;
+
+}
+
+.nav nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.icons {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media(max-width: 480px) {
+    .nav nav ul {
+        display: flex;
+        gap: 0.4rem;
+        align-items: center;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .NATURAL {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,27 @@
+.forms {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.forms input {
+    width: 400px;
+
+}
+
+.add-btn {
+    margin: 10px 0;
+    padding: 9px 40px;
+    border: 2px solid red;
+    transition: all 0.7s;
+    margin: 10px 0;
+
+}
+
+.add-btn:hover {
+    background-color: red;
+    color: #fff;
+}

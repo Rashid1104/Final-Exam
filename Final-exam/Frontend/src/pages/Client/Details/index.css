@@ -1,0 +1,22 @@
+.row-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-back {
+    padding: 12px 40px;
+    background-color: #1356ff;
+    border: none;
+    transition: all 0.7s;
+}
+
+.btn-back:hover {
+    background-color: #0346f0;
+}
+
+.btn-back a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
